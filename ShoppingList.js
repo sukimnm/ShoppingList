@@ -1,5 +1,5 @@
 // Create a shopping list
-let shoppingList = ["Ski Boots", "Helmet", "Ski Boards"];
+const shoppingList = ["Ski Boots", "Helmet", "Ski Boards"];
 
 // add two more items to the shopping list, and output
 shoppingList.push("Ski Goggles", "Ski Poles");
@@ -39,7 +39,7 @@ console.log(checkIsItemOnShoppingList("Helmet")); //true
 console.log(checkIsItemOnShoppingList("Ski Sockes")); //false
 
 //create an item object
-let item = {
+const item = {
     name: "Helmet",
     price: "200 AUD",
     quantity: 1
